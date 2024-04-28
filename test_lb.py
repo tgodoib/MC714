@@ -1,8 +1,7 @@
 import requests
 import time
 
-# ip = '35.208.9.186'
-ip = 'localhost'
+ip = ''
 
 requests_total = 10
 interval_seconds = 1

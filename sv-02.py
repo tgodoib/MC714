@@ -7,5 +7,5 @@ class server(http.server.BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(b'sv-02')
 
-servidor = http.server.HTTPServer(('localhost', 80), server)
+servidor = http.server.HTTPServer(('0.0.0.0', 80), server)
 servidor.serve_forever()
